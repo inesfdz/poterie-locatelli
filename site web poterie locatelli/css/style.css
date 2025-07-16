@@ -1,58 +1,31 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #fefefe;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
 }
 
-header {
-  background-color: #8b5e3c;
-  color: white;
-  padding: 1em;
+header, footer {
+  background-color: #d7ccc8;
+  padding: 20px;
   text-align: center;
 }
 
 nav a {
-  color: white;
-  margin: 0 1em;
+  margin: 0 10px;
   text-decoration: none;
+  color: #5d4037;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-
-main {
-  padding: 2em;
-}
-
-.gallery .items {
+.produits {
   display: flex;
-  gap: 2em;
-  justify-content: center;
   flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
 
-figure {
-  width: 200px;
-  text-align: center;
-}
-
-figure img {
-  width: 100%;
+.produit {
   border: 1px solid #ccc;
-  border-radius: 8px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: auto;
-}
-
-form label,
-form select,
-form button {
-  margin: 0.5em 0;
+  padding: 15px;
+  width: 200px;
 }
